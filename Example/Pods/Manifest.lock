@@ -1,0 +1,39 @@
+PODS:
+  - JZComponents (0.1.0):
+    - JZComponents/FoundationExtension (= 0.1.0)
+    - JZComponents/Public (= 0.1.0)
+    - JZComponents/UIKitExtension (= 0.1.0)
+    - JZComponents/Utility (= 0.1.0)
+  - JZComponents/FoundationExtension (0.1.0):
+    - YYModel
+  - JZComponents/Public (0.1.0)
+  - JZComponents/UIKitExtension (0.1.0)
+  - JZComponents/Utility (0.1.0)
+  - LookinServer (1.0.4)
+  - Masonry (1.1.0)
+  - YYModel (1.0.4)
+
+DEPENDENCIES:
+  - JZComponents (from `../`)
+  - LookinServer (= 1.0.4)
+  - Masonry
+
+SPEC REPOS:
+  trunk:
+    - LookinServer
+    - Masonry
+    - YYModel
+
+EXTERNAL SOURCES:
+  JZComponents:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  JZComponents: 86310ce7a7012dc87dcd8be43d9d82d357724f9f
+  LookinServer: 743c1681771d0a8dcc38825325a080c3186404a5
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
+
+PODFILE CHECKSUM: b886325d535d79f24d80f7ac3dea46d2f1751af4
+
+COCOAPODS: 1.11.2

@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'JZComponents_Example' do
+  pod 'JZComponents', :path => '../'
+#  pod 'JZComponents/Utility', :path => '../'
+  pod 'Masonry'
+  pod 'LookinServer', '1.0.4', :configurations => ['Debug'] #Debug 模式 添加UI测试工具
+  target 'JZComponents_Tests' do
+    inherit! :search_paths
+  end
+end

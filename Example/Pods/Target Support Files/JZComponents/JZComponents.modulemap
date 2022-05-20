@@ -1,0 +1,6 @@
+framework module JZComponents {
+  umbrella header "JZComponents-umbrella.h"
+
+  export *
+  module * { export * }
+}
