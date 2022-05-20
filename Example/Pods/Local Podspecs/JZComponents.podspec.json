@@ -12,7 +12,7 @@
     "Jentle-Zhi": "juntaozhi@163.com"
   },
   "source": {
-    "git": "https://github.com/Jentle/JZComponents.git",
+    "git": "git@github.com:Jentlezhi/JZComponents.git",
     "tag": "0.1.0"
   },
   "platforms": {
