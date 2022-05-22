@@ -2,8 +2,8 @@
 //  JZAppDelegate.m
 //  JZComponents
 //
-//  Created by Jentle on 05/18/2022.
-//  Copyright (c) 2022 Jentle. All rights reserved.
+//  Created by Jentle on 03/18/2020.
+//  Copyright (c) 2020 Jentle. All rights reserved.
 //
 
 #import "JZAppDelegate.h"
@@ -13,6 +13,7 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    [[NSBundle bundleWithPath:@"/Applications/InjectionIII.app/Contents/Resources/iOSInjection.bundle"] load]; 
     return YES;
 }
 

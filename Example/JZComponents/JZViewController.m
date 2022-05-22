@@ -9,6 +9,7 @@
 #import "JZViewController.h"
 #import "JZComponents.h"
 #import "Masonry.h"
+#import <ReactiveObjC/ReactiveObjC.h>
 
 @interface JZViewController ()
 
@@ -16,40 +17,35 @@
 
 @implementation JZViewController
 
+//- (void)injected
+//{
+//    NSLog(@"I've been injected: %@", self);
+//}
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-//    NSString *content = @"iOS开发者".jz_append(@" 苹果").jz_append( @"swift");
-//    UILabel *label = [UILabel jz_labelWithText:content textColor:UIColor.blackColor backgroundColor:UIColor.orangeColor font:[UIFont systemFontOfSize:15.f] textAlignment:NSTextAlignmentLeft];
-//    [self.view addSubview:label];
-//    [label mas_makeConstraints:^(MASConstraintMaker *make) {
-//        make.center.equalTo(self.view);
-//    }];
-//
-//    BOOL ret = @"aad".jz_isEqual(@"aad");
-//    NSLog(@"ret = %d",ret);
-//
-//    NSLog(@"%@",NSString.jz_guard(nil));
-//
-////    NSLog(@"%@",NSString.randomRangedLetters(1,10));
-////    NSLog(@"%@",NSString.randomChineseLetters(10));
-////    NSLog(@"%@",NSString.randomRangedChineseLetters(0,10));
-//
-//    NSArray *array = @[@"a",@"b"];
-//    NSLog(@"%@",array[1]);
-//    NSLog(@"%@",array[-1]);
-//    NSLog(@"%@",[array objectAtIndex:100]);
-//
-//    NSMutableArray *marray = @[@"a",@"b", @"c"].mutableCopy;
-////    [marray addObject:nil];
-//    NSLog(@"%@",[marray objectAtIndex:-1]);
-    
     UIImageView *imageView = [UIImageView jz_imageWithImageName:@"icon_001"];
     [self.view addSubview:imageView];
+    self.view.backgroundColor = UIColor.whiteColor;
     [imageView mas_makeConstraints:^(MASConstraintMaker *make) {
         make.center.equalTo(self.view);
         make.width.equalTo(@50);
         make.height.equalTo(@100);
+    }];
+    
+    UITextField *textField = [UITextField jz_textFieldWithTextColor:UIColor.blackColor font:UIFont.jz_systemFontSize(16.f) placeholder:@"请输入"];
+//    textField.backgroundColor = UIColor.lightGrayColor;
+    [self.view addSubview:textField];
+    [textField mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.top.equalTo(imageView.mas_bottom).offset(20.f);
+        make.left.equalTo(@20.f);
+        make.right.equalTo(@-20.f);
+    }];
+    [textField.rac_textSignal subscribeNext:^(NSString *inputString) {
+        if (inputString.length > 5) {
+            textField.text = [inputString substringToIndex:5];
+        }
     }];
 }
 

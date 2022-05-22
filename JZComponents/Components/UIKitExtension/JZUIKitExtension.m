@@ -536,10 +536,9 @@
     customTF.placeholder = placeholder;
     customTF.clearButtonMode = clearButtonMode;
     if (!placeholderColor) {
-        placeholderColor = [UIColor colorWithRed:182.f green:182.f blue:182.f alpha:1.f];
+        placeholderColor = [UIColor jz_colorWithHexColor:@"#CCCCCC"];
     }
     [customTF jz_setPlaceholder:placeholder withFont:font fontColor:placeholderColor];
-    
     return customTF;
 }
 
@@ -555,8 +554,9 @@
     if (font == nil || fontColor == nil) {
         return;
     }
-    self.attributedPlaceholder = [[NSAttributedString alloc] initWithString:placeholder attributes:@{NSForegroundColorAttributeName: fontColor, NSFontAttributeName: font}];
-    
+    self.tintColor = fontColor;
+    NSDictionary *attrs = @{NSForegroundColorAttributeName: fontColor, NSFontAttributeName: font};
+    self.attributedPlaceholder = [[NSAttributedString alloc] initWithString:placeholder attributes:attrs];
 }
 
 @end

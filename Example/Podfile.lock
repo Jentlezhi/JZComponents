@@ -11,17 +11,20 @@ PODS:
   - JZComponents/Utility (0.1.0)
   - LookinServer (1.0.4)
   - Masonry (1.1.0)
+  - ReactiveObjC (3.1.1)
   - YYModel (1.0.4)
 
 DEPENDENCIES:
   - JZComponents (from `../`)
   - LookinServer (= 1.0.4)
   - Masonry
+  - ReactiveObjC
 
 SPEC REPOS:
   trunk:
     - LookinServer
     - Masonry
+    - ReactiveObjC
     - YYModel
 
 EXTERNAL SOURCES:
@@ -32,8 +35,9 @@ SPEC CHECKSUMS:
   JZComponents: 618c793f4711492ad0e27cd1a28a5d3052daa09f
   LookinServer: 743c1681771d0a8dcc38825325a080c3186404a5
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  ReactiveObjC: 011caa393aa0383245f2dcf9bf02e86b80b36040
   YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
 
-PODFILE CHECKSUM: b886325d535d79f24d80f7ac3dea46d2f1751af4
+PODFILE CHECKSUM: e44d0f00c49537a90e0eda03bc6b92174ac13d0a
 
 COCOAPODS: 1.11.2
