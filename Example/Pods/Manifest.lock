@@ -1,14 +1,14 @@
 PODS:
-  - JZComponents (0.1.0):
-    - JZComponents/FoundationExtension (= 0.1.0)
-    - JZComponents/Public (= 0.1.0)
-    - JZComponents/UIKitExtension (= 0.1.0)
-    - JZComponents/Utility (= 0.1.0)
-  - JZComponents/FoundationExtension (0.1.0):
+  - JZComponents (0.1.1):
+    - JZComponents/FoundationExtension (= 0.1.1)
+    - JZComponents/Public (= 0.1.1)
+    - JZComponents/UIKitExtension (= 0.1.1)
+    - JZComponents/Utility (= 0.1.1)
+  - JZComponents/FoundationExtension (0.1.1):
     - YYModel
-  - JZComponents/Public (0.1.0)
-  - JZComponents/UIKitExtension (0.1.0)
-  - JZComponents/Utility (0.1.0)
+  - JZComponents/Public (0.1.1)
+  - JZComponents/UIKitExtension (0.1.1)
+  - JZComponents/Utility (0.1.1)
   - LookinServer (1.0.4)
   - Masonry (1.1.0)
   - ReactiveObjC (3.1.1)
@@ -32,7 +32,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  JZComponents: 618c793f4711492ad0e27cd1a28a5d3052daa09f
+  JZComponents: 803afb56b4a618f431118538e00c31d4e5d7dfb3
   LookinServer: 743c1681771d0a8dcc38825325a080c3186404a5
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   ReactiveObjC: 011caa393aa0383245f2dcf9bf02e86b80b36040

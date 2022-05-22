@@ -1,6 +1,6 @@
 {
   "name": "JZComponents",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "summary": "iOS开发常用集合.",
   "description": "整理iOS常用的组件库，不断更新.",
   "homepage": "https://github.com/Jentle/JZComponents",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "git@github.com:Jentlezhi/JZComponents.git",
-    "tag": "0.1.0"
+    "tag": "0.1.1"
   },
   "platforms": {
     "ios": "9.0"
