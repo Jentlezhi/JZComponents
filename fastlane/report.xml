@@ -5,54 +5,54 @@
     
     
       
-      <testcase classname="fastlane.lanes" name="0: cocoapods" time="2.148953">
+      <testcase classname="fastlane.lanes" name="0: cocoapods" time="1.608737">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="1: git_add" time="0.044003">
+      <testcase classname="fastlane.lanes" name="1: git_add" time="0.026973">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="2: git_commit" time="0.075605">
+      <testcase classname="fastlane.lanes" name="2: git_commit" time="0.051116">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="3: push_to_git_remote" time="3.885629">
+      <testcase classname="fastlane.lanes" name="3: push_to_git_remote" time="3.678949">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="4: git_tag_exists" time="0.01306">
+      <testcase classname="fastlane.lanes" name="4: git_tag_exists" time="0.016045">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="5: remove_git_tag" time="3.944185">
+      <testcase classname="fastlane.lanes" name="5: remove_git_tag" time="4.009497">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="6: add_git_tag" time="0.025172">
+      <testcase classname="fastlane.lanes" name="6: add_git_tag" time="0.029347">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="7: push_git_tags" time="3.721639">
+      <testcase classname="fastlane.lanes" name="7: push_git_tags" time="3.866085">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="8: pod_lib_lint" time="17.63434">
+      <testcase classname="fastlane.lanes" name="8: pod_lib_lint" time="17.949908">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="9: command_action" time="0.015841">
+      <testcase classname="fastlane.lanes" name="9: command_action" time="87.741016">
         
-          <failure message="/Library/Ruby/Gems/2.6.0/gems/fastlane-2.199.0/fastlane/lib/fastlane/actions/actions_helper.rb:67:in `execute_action'&#10;/Library/Ruby/Gems/2.6.0/gems/fastlane-2.199.0/fastlane/lib/fastlane/runner.rb:255:in `block in execute_action'&#10;/Library/Ruby/Gems/2.6.0/gems/fastlane-2.199.0/fastlane/lib/fastlane/runner.rb:229:in `chdir'&#10;/Library/Ruby/Gems/2.6.0/gems/fastlane-2.199.0/fastlane/lib/fastlane/runner.rb:229:in `execute_action'&#10;/Library/Ruby/Gems/2.6.0/gems/fastlane-2.199.0/fastlane/lib/fastlane/runner.rb:157:in `trigger_action_by_name'&#10;/Library/Ruby/Gems/2.6.0/gems/fastlane-2.199.0/fastlane/lib/fastlane/fast_file.rb:159:in `method_missing'&#10;Fastfile:65:in `block in parsing_binding'&#10;/Library/Ruby/Gems/2.6.0/gems/fastlane-2.199.0/fastlane/lib/fastlane/lane.rb:33:in `call'&#10;/Library/Ruby/Gems/2.6.0/gems/fastlane-2.199.0/fastlane/lib/fastlane/runner.rb:49:in `block in execute'&#10;/Library/Ruby/Gems/2.6.0/gems/fastlane-2.199.0/fastlane/lib/fastlane/runner.rb:45:in `chdir'&#10;/Library/Ruby/Gems/2.6.0/gems/fastlane-2.199.0/fastlane/lib/fastlane/runner.rb:45:in `execute'&#10;/Library/Ruby/Gems/2.6.0/gems/fastlane-2.199.0/fastlane/lib/fastlane/lane_manager.rb:47:in `cruise_lane'&#10;/Library/Ruby/Gems/2.6.0/gems/fastlane-2.199.0/fastlane/lib/fastlane/command_line_handler.rb:36:in `handle'&#10;/Library/Ruby/Gems/2.6.0/gems/fastlane-2.199.0/fastlane/lib/fastlane/commands_generator.rb:109:in `block (2 levels) in run'&#10;/Library/Ruby/Gems/2.6.0/gems/commander-4.6.0/lib/commander/command.rb:187:in `call'&#10;/Library/Ruby/Gems/2.6.0/gems/commander-4.6.0/lib/commander/command.rb:157:in `run'&#10;/Library/Ruby/Gems/2.6.0/gems/commander-4.6.0/lib/commander/runner.rb:444:in `run_active_command'&#10;/Library/Ruby/Gems/2.6.0/gems/fastlane-2.199.0/fastlane_core/lib/fastlane_core/ui/fastlane_runner.rb:117:in `run!'&#10;/Library/Ruby/Gems/2.6.0/gems/commander-4.6.0/lib/commander/delegates.rb:18:in `run!'&#10;/Library/Ruby/Gems/2.6.0/gems/fastlane-2.199.0/fastlane/lib/fastlane/commands_generator.rb:353:in `run'&#10;/Library/Ruby/Gems/2.6.0/gems/fastlane-2.199.0/fastlane/lib/fastlane/commands_generator.rb:42:in `start'&#10;/Library/Ruby/Gems/2.6.0/gems/fastlane-2.199.0/fastlane/lib/fastlane/cli_tools_distributor.rb:122:in `take_off'&#10;/Library/Ruby/Gems/2.6.0/gems/fastlane-2.199.0/bin/fastlane:23:in `&lt;top (required)&gt;'&#10;/usr/local/bin/fastlane:23:in `load'&#10;/usr/local/bin/fastlane:23:in `&lt;main&gt;'&#10;&#10;Exit status of command 'pod trunk push JZComponents.podspec --allow-warnings --skip-import-validation'' was 2 instead of 0.&#10;sh: -c: line 0: unexpected EOF while looking for matching `''&#10;sh: -c: line 1: syntax error: unexpected end of file&#10;" />
+          <failure message="/Library/Ruby/Gems/2.6.0/gems/fastlane-2.199.0/fastlane/lib/fastlane/actions/actions_helper.rb:67:in `execute_action'&#10;/Library/Ruby/Gems/2.6.0/gems/fastlane-2.199.0/fastlane/lib/fastlane/runner.rb:255:in `block in execute_action'&#10;/Library/Ruby/Gems/2.6.0/gems/fastlane-2.199.0/fastlane/lib/fastlane/runner.rb:229:in `chdir'&#10;/Library/Ruby/Gems/2.6.0/gems/fastlane-2.199.0/fastlane/lib/fastlane/runner.rb:229:in `execute_action'&#10;/Library/Ruby/Gems/2.6.0/gems/fastlane-2.199.0/fastlane/lib/fastlane/runner.rb:157:in `trigger_action_by_name'&#10;/Library/Ruby/Gems/2.6.0/gems/fastlane-2.199.0/fastlane/lib/fastlane/fast_file.rb:159:in `method_missing'&#10;Fastfile:65:in `block in parsing_binding'&#10;/Library/Ruby/Gems/2.6.0/gems/fastlane-2.199.0/fastlane/lib/fastlane/lane.rb:33:in `call'&#10;/Library/Ruby/Gems/2.6.0/gems/fastlane-2.199.0/fastlane/lib/fastlane/runner.rb:49:in `block in execute'&#10;/Library/Ruby/Gems/2.6.0/gems/fastlane-2.199.0/fastlane/lib/fastlane/runner.rb:45:in `chdir'&#10;/Library/Ruby/Gems/2.6.0/gems/fastlane-2.199.0/fastlane/lib/fastlane/runner.rb:45:in `execute'&#10;/Library/Ruby/Gems/2.6.0/gems/fastlane-2.199.0/fastlane/lib/fastlane/lane_manager.rb:47:in `cruise_lane'&#10;/Library/Ruby/Gems/2.6.0/gems/fastlane-2.199.0/fastlane/lib/fastlane/command_line_handler.rb:36:in `handle'&#10;/Library/Ruby/Gems/2.6.0/gems/fastlane-2.199.0/fastlane/lib/fastlane/commands_generator.rb:109:in `block (2 levels) in run'&#10;/Library/Ruby/Gems/2.6.0/gems/commander-4.6.0/lib/commander/command.rb:187:in `call'&#10;/Library/Ruby/Gems/2.6.0/gems/commander-4.6.0/lib/commander/command.rb:157:in `run'&#10;/Library/Ruby/Gems/2.6.0/gems/commander-4.6.0/lib/commander/runner.rb:444:in `run_active_command'&#10;/Library/Ruby/Gems/2.6.0/gems/fastlane-2.199.0/fastlane_core/lib/fastlane_core/ui/fastlane_runner.rb:117:in `run!'&#10;/Library/Ruby/Gems/2.6.0/gems/commander-4.6.0/lib/commander/delegates.rb:18:in `run!'&#10;/Library/Ruby/Gems/2.6.0/gems/fastlane-2.199.0/fastlane/lib/fastlane/commands_generator.rb:353:in `run'&#10;/Library/Ruby/Gems/2.6.0/gems/fastlane-2.199.0/fastlane/lib/fastlane/commands_generator.rb:42:in `start'&#10;/Library/Ruby/Gems/2.6.0/gems/fastlane-2.199.0/fastlane/lib/fastlane/cli_tools_distributor.rb:122:in `take_off'&#10;/Library/Ruby/Gems/2.6.0/gems/fastlane-2.199.0/bin/fastlane:23:in `&lt;top (required)&gt;'&#10;/usr/local/bin/fastlane:23:in `load'&#10;/usr/local/bin/fastlane:23:in `&lt;main&gt;'&#10;&#10;Exit status of command 'pod trunk push JZComponents.podspec --allow-warnings --skip-import-validation' was 1 instead of 0.&#10;Updating spec repo `trunk`&#10;[!] CDN: trunk Repo update failed - 11 error(s):&#10;CDN: trunk URL couldn't be downloaded: https://cdn.jsdelivr.net/cocoa/Specs/3/d/1/RxImageView/0.1.2/RxImageView.podspec.json Response: SSL connect error&#10;CDN: trunk URL couldn't be downloaded: https://cdn.jsdelivr.net/cocoa/Specs/3/d/1/RxImageView/0.1.3/RxImageView.podspec.json Response: SSL connect error&#10;CDN: trunk URL couldn't be downloaded: https://cdn.jsdelivr.net/cocoa/Specs/3/d/1/RxImageView/0.1.4/RxImageView.podspec.json Response: SSL connect error&#10;CDN: trunk URL couldn't be downloaded: https://cdn.jsdelivr.net/cocoa/Specs/3/d/1/RxImageView/0.1.6/RxImageView.podspec.json Response: SSL connect error&#10;CDN: trunk URL couldn't be downloaded: https://cdn.jsdelivr.net/cocoa/Specs/3/d/1/RxImageView/0.1.7/RxImageView.podspec.json Response: SSL connect error&#10;CDN: trunk URL couldn't be downloaded: https://cdn.jsdelivr.net/cocoa/Specs/3/d/1/RxImageView/0.1.8/RxImageView.podspec.json Response: SSL connect error&#10;CDN: trunk URL couldn't be downloaded: https://cdn.jsdelivr.net/cocoa/Specs/4/5/5/ios-NetworkModules/1.0.17/ios-NetworkModules.podspec.json Response: SSL connect error&#10;CDN: trunk URL couldn't be downloaded: https://cdn.jsdelivr.net/cocoa/Specs/4/b/7/LYWebImageSwitch/0.1.0/LYWebImageSwitch.podspec.json Response: SSL connect error&#10;CDN: trunk URL couldn't be downloaded: https://cdn.jsdelivr.net/cocoa/Specs/9/0/d/SDWebImageAnimation/0.0.2/SDWebImageAnimation.podspec.json Response: SSL connect error&#10;CDN: trunk URL couldn't be downloaded: https://cdn.jsdelivr.net/cocoa/Specs/b/8/8/ComponentKit+SDWebImage/0.0.2/ComponentKit+SDWebImage.podspec.json Response: SSL connect error&#10;CDN: trunk URL couldn't be downloaded: https://cdn.jsdelivr.net/cocoa/Specs/c/5/6/SDCycleScrollViewHM/1.82/SDCycleScrollViewHM.podspec.json Response: SSL connect error&#10;" />
         
       </testcase>
     
